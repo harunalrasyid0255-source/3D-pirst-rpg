@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:Style src="MainMenuStyle.uss" />
+
+    <ui:VisualElement name="root-container" class="container">
+
+        <!-- Judul Game -->
+        <ui:Label text="CHRONICLES OF AETHER" name="game-title" class="title" />
+        <ui:Label text="Fantasy Action RPG" class="subtitle" />
+
+        <!-- Grup Tombol Menu -->
+        <ui:VisualElement class="button-group">
+            <ui:Button text="MULAI PETUALANGAN" name="btn-play"     class="menu-btn primary-btn" />
+            <ui:Button text="PENGATURAN"         name="btn-settings" class="menu-btn" />
+            <ui:Button text="KELUAR GAME"        name="btn-quit"     class="menu-btn quit-btn" />
+        </ui:VisualElement>
+
+    </ui:VisualElement>
+</ui:UXML>

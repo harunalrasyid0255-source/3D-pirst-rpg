@@ -230,7 +230,7 @@ MonoBehaviour:
   m_comment: 
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   m_stiffnessForce: 0.21052632
-  m_gravityPower: 0.10964912
+  m_gravityPower: 0.6666667
   m_gravityDir: {x: 0, y: -1, z: 0}
   m_dragForce: 1
   m_center: {fileID: 0}
@@ -247,10 +247,10 @@ MonoBehaviour:
   - {fileID: 32151057}
   - {fileID: 694107368}
   - {fileID: 1075740643}
-  m_hitRadius: 0.06885964
+  m_hitRadius: 0.16666667
   ColliderGroups:
-  - {fileID: 1737201995}
-  - {fileID: 1439459676}
+  - {fileID: 1737201997}
+  - {fileID: 1439459678}
   m_updateType: 0
 --- !u!1 &330585543
 GameObject:
@@ -801,11 +801,11 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -2853166962171840931, guid: 95560d725380dad4cbbb3f4761d9f8b8,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1737201995}
+      addedObject: {fileID: 1737201997}
     - targetCorrespondingSourceObject: {fileID: 8017100071062074396, guid: 95560d725380dad4cbbb3f4761d9f8b8,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1439459676}
+      addedObject: {fileID: 1439459678}
   m_SourcePrefab: {fileID: 100100000, guid: 95560d725380dad4cbbb3f4761d9f8b8, type: 3}
 --- !u!1 &637255211 stripped
 GameObject:
@@ -1119,7 +1119,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 637255210}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1439459676
+--- !u!114 &1439459678
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1132,12 +1132,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Colliders:
-  - Offset: {x: 0, y: 0.07, z: 0.012}
-    Radius: 0.07
-  - Offset: {x: -0.00000028638655, y: 0.1843344, z: 0.014339436}
-    Radius: 0.07
-  - Offset: {x: -0.0000016379328, y: 0.28876108, z: 0.004698866}
-    Radius: 0.05
+  - Offset: {x: -0.01, y: 0, z: 0}
+    Radius: 0
+  - Offset: {x: -0.01, y: -0.18, z: 0}
+    Radius: 0.37
   m_gizmoColor: {r: 1, g: 0, b: 1, a: 1}
 --- !u!4 &1514298825 stripped
 Transform:
@@ -1163,7 +1161,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 637255210}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1737201995
+--- !u!114 &1737201997
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1176,12 +1174,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Colliders:
-  - Offset: {x: 0, y: 0.07, z: 0.012}
-    Radius: 0.07
-  - Offset: {x: -0.00000009676129, y: 0.17931378, z: 0.013202751}
-    Radius: 0.066
-  - Offset: {x: 0.00000015070849, y: 0.3068803, z: 0.010387698}
-    Radius: 0.047
+  - Offset: {x: 0.01, y: 0, z: 0}
+    Radius: 0.09
+  - Offset: {x: 0.01, y: -0.18, z: 0}
+    Radius: 0.06
   m_gizmoColor: {r: 1, g: 0, b: 1, a: 1}
 --- !u!4 &1832812478 stripped
 Transform:
